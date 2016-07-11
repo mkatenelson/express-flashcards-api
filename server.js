@@ -32,6 +32,8 @@ app.use("/static", express.static("./public"));
 // alias the views folder
 app.set("view engine", "ejs");
 app.set("port", process.env.PORT || 3000);
+
+
 // ROUTES //
 var routes = require("./routes");
 
@@ -44,7 +46,6 @@ app.use('/api/flashcards', routes.flashcardRouter);
 app.listen(app.get("port"), function() {
     process.on('uncaughtException', function (err) {
         console.log(err);
-    }); 
+    });
   console.log("Express server listening on port %d in %s mode", app.get("port"), app.settings.env);
 });
-
