@@ -1,0 +1,22 @@
+{
+  "name": "flashcards-express-api",
+  "description": "Express API for flashcards app",
+  "main": "server.js",
+  "authors": [
+    "Kate Nelson <mkatenelson@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "homepage": "https://github.com/mkatenelson/express-flashcards-api",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
